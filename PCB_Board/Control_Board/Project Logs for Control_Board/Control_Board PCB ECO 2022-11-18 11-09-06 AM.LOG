@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=42V Pin=R3-1
+Removed Pin From Net: NetName=24V Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R3-1
+Added Pin To Net: NetName=GND Pin=R4-1
+Added Room: Name=Connectors
+Added Room: Name=DAQ_Amp

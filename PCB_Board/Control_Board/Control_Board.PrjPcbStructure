@@ -1,3 +1,1 @@
-Record=TopLevelDocument|FileName=Connectors.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=DAQ_Amp.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Connectors.SchDoc|FileName=Internal_Connections.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=main.SchDoc|SheetNumber=1

@@ -1,0 +1,11 @@
+Added Component: Designator=J_Motor_Control(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Motor_Vout Pin=J_Motor_Control-1
+Added Pin To Net: NetName=GND Pin=J_Motor_Control-2
+Added Member To Class: ClassName=Connectors Member=Component J_Motor_Control https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Room: Name=Connectors
+Added Room: Name=DAQ_Amp

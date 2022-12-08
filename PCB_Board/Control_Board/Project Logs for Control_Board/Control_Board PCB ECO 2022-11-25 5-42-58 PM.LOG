@@ -1,0 +1,178 @@
+Removed Pin From Net: NetName=24V Pin=D1-2
+Removed Pin From Net: NetName=42V Pin=D-2
+Removed Pin From Net: NetName=24V Pin=J_24V-1
+Removed Pin From Net: NetName=GND Pin=J_24V-2
+Removed Pin From Net: NetName=42V Pin=J_42V-1
+Removed Pin From Net: NetName=GND Pin=J_42V-2
+Removed Pin From Net: NetName=AO_0 Pin=J_DAQ-1
+Removed Pin From Net: NetName=AO_1 Pin=J_DAQ-2
+Removed Pin From Net: NetName=AI_0 Pin=J_DAQ-3
+Removed Pin From Net: NetName=DIO_0 Pin=J_DAQ-4
+Removed Pin From Net: NetName=DIO_1 Pin=J_DAQ-5
+Removed Pin From Net: NetName=GND Pin=J_DAQ-6
+Removed Pin From Net: NetName=GND Pin=J_DAQ-7
+Removed Pin From Net: NetName=GND Pin=J_DAQ-8
+Removed Pin From Net: NetName=GND Pin=J_DAQ-9
+Removed Pin From Net: NetName=AO_1 Pin=J_ICS_Control-1
+Removed Pin From Net: NetName=GND Pin=J_ICS_Control-2
+Removed Pin From Net: NetName=24V Pin=J_ICS_Power-1
+Removed Pin From Net: NetName=GND Pin=J_ICS_Power-2
+Removed Pin From Net: NetName=Motor_Vout Pin=J_Motor_Control-1
+Removed Pin From Net: NetName=GND Pin=J_Motor_Control-2
+Removed Pin From Net: NetName=GND Pin=J_Torque_Sensor-1
+Removed Pin From Net: NetName=GND Pin=J_Torque_Sensor-2
+Removed Pin From Net: NetName=GND Pin=J_Torque_Sensor-3
+Removed Pin From Net: NetName=GND Pin=J_Torque_Sensor-4
+Removed Pin From Net: NetName=GND Pin=J_Torque_Sensor-5
+Removed Pin From Net: NetName=24V Pin=J_Torque_Sensor-6
+Removed Pin From Net: NetName=AI_0 Pin=J_Torque_Sensor-7
+Removed Pin From Net: NetName=DIO_0 Pin=J_Torque_Sensor-8
+Removed Pin From Net: NetName=DIO_1 Pin=J_Torque_Sensor-9
+Removed Pin From Net: NetName=Motor_Vout Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=NetD1_1 Pin=R4-2
+Removed Pin From Net: NetName=42V Pin=U1-1
+Change Component Footprint: Designator=R4 Old Footprint=RESC1608X55X25LL10T15 New Footprint=Thru Hole Resistor
+Change Component Footprint: Designator=R1 Old Footprint=Thru Hole Resistor New Footprint=RESC1608X55X25LL10T15
+Change Component Comment : Designator=R1 Old Comment=ALSR017K000JE12 New Comment=RT0603BRE072KL
+Change Component Comment : Designator=R2 Old Comment=RSF100JB-73-2K New Comment=ALSR017K000JE12
+Change Component Comment : Designator=R4 Old Comment=RT0603BRE072KL New Comment=RSF100JB-73-2K
+Change Managed Component Library Link : Designator=R1 Old VaultGUID= New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID= New ItemGUID=620F1D75-0CB3-4790-8A7F-DB3A9BD33DC9 Old RevisionGUID= New RevisionGUID=C04A144E-4D2B-4E8B-8F31-A0CB494792C2
+Change Managed Component Library Link : Designator=R4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=620F1D75-0CB3-4790-8A7F-DB3A9BD33DC9 New ItemGUID= Old RevisionGUID=C04A144E-4D2B-4E8B-8F31-A0CB494792C2 New RevisionGUID=
+Change component parameters: Designator = "R1" ("R1"); Footprint = "Thru Hole Resistor"; UniqueID = "\KFXHAJTU" ("\KFXHAJTU")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "RT0603BRE072KL"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2" ("R2"); Footprint = "Thru Hole Resistor"; UniqueID = "\MLLENWIN" ("\MLLENWIN")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Product Number"; Value = "ALSR017K000JE12"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Seller Part Number"; Value = "ALSR1J-7.0K-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "7.0kOhms"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "RESC1608X55X25LL10T15"; UniqueID = "\VYXRTBRI" ("\VYXRTBRI")
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "YAGEO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Product Number"; Value = "RSF100JB-73-2K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Seller Part Number"; Value = "2.0KW-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "2.0kOhms"; VariantName = "[No Variations]"
+Added Component: Designator=D2(0603)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LTST-C191KGKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTST-C191KGKT/Lite-On%20Inc./view-part/48565/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J1(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=J2(61800925023)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6180xx25023.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61800925023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61800925023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "125VAC"; VariantName = "[No Variations]"
+Added Component: Designator=J3(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=J4(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=J5(61800925023)
+Add component (AddParameter): Name = "Contact Resistance"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/6180xx25023.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "61800925023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "61800925023"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pin Number"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "3A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "125VAC"; VariantName = "[No Variations]"
+Added Component: Designator=J6(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Component: Designator=J7(CONN_73137-5003_MOL)
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2022 Ultra Librarian. All rights reserved."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "731375003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Molex Connector Corporation"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=42V Pin=D1-2
+Added Pin To Net: NetName=24V Pin=D2-2
+Added Pin To Net: NetName=24V Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=GND Pin=J2-5
+Added Pin To Net: NetName=24V Pin=J2-6
+Added Pin To Net: NetName=AI_0 Pin=J2-7
+Added Pin To Net: NetName=DIO_0 Pin=J2-8
+Added Pin To Net: NetName=DIO_1 Pin=J2-9
+Added Pin To Net: NetName=AO_1 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=Motor_Vout Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=AO_0 Pin=J5-1
+Added Pin To Net: NetName=AO_1 Pin=J5-2
+Added Pin To Net: NetName=AI_0 Pin=J5-3
+Added Pin To Net: NetName=DIO_0 Pin=J5-4
+Added Pin To Net: NetName=DIO_1 Pin=J5-5
+Added Pin To Net: NetName=GND Pin=J5-6
+Added Pin To Net: NetName=GND Pin=J5-7
+Added Pin To Net: NetName=GND Pin=J5-8
+Added Pin To Net: NetName=GND Pin=J5-9
+Added Pin To Net: NetName=42V Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=24V Pin=J7-1
+Added Pin To Net: NetName=GND Pin=J7-2
+Added Pin To Net: NetName=GND Pin=R1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R1-2
+Added Pin To Net: NetName=Motor_Vout Pin=R2-2
+Added Pin To Net: NetName=AO_0 Pin=U1-1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R3-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R4-2
+Added Pin To Net: NetName=NetR2_1 Pin=U1-8
+Added Net: Name=NetR2_1
+Change Class Name : Old Net Name=DAQ_Amp New Net Name=main
+Added Member To Class: ClassName=main Member=Component D1 LTST-C191KGKT
+Added Member To Class: ClassName=main Member=Component D2 LTST-C191KGKT
+Added Member To Class: ClassName=main Member=Component J1 https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Member To Class: ClassName=main Member=Component J2 61800925023
+Added Member To Class: ClassName=main Member=Component J3 https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Member To Class: ClassName=main Member=Component J4 https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Member To Class: ClassName=main Member=Component J5 61800925023
+Added Member To Class: ClassName=main Member=Component J6 https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Member To Class: ClassName=main Member=Component J7 https://www.digikey.ca/en/products/detail/molex/0731375003/1465136
+Added Member To Class: ClassName=main Member=Component R3 RT0603BRE072KL
+Added Member To Class: ClassName=main Member=Component R4 RSF100JB-73-2K
+Added Room: Name=main
