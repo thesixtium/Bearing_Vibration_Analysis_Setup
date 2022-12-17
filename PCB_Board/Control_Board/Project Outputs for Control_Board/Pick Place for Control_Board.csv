@@ -1,0 +1,12 @@
+Designator,Center-X(mil),Center-Y(mil),Layer,Rotation
+U1,3105,3105,TopLayer,90
+R2,3405,2995,TopLayer,180
+R1,3265,3030,TopLayer,90
+J7: 24V Input,4870,2335.002,TopLayer,180
+J6: 42V Input,4016.25,2335.002,TopLayer,180
+J5: DAQ Connection,1766.933,3149.095,TopLayer,180
+J4: Motor Control,3162.5,2335.002,TopLayer,180
+J3:ICS Control,2308.75,2335.002,TopLayer,180
+J2: Torque Connection,4558.067,3149.095,TopLayer,180
+J1: ICS Power,1455,2335.002,TopLayer,180
+C1,3115,3380,TopLayer,0
