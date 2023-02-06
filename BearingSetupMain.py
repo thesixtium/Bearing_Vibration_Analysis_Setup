@@ -5,13 +5,12 @@ from nidaqmx import system
 from threading import Thread
 
 import settings
-from TorqueSensor import torque_sensor_control, torque_speed_sensor
 from Motor import motor_control
+from Brake import brake_control
 from CommandLineInterface import command_line_interface
-
+from TorqueSensor import torque_sensor_control, torque_speed_sensor
 
 # Channel Outputs: https://www.ni.com/docs/en-US/bundle/ni-daqmx/page/mxdevconsid/mydaqphyschanns.html
-
 
 def main():
     settings.init()
@@ -34,11 +33,19 @@ def main():
 
     ax[0, 1].set_title("Motor Speed")
 
+    ax[1, 0].set_title("Brake Voltage")
+    ax[1, 0].axis(ymin=0, ymax=10)
+
+    ax[1, 1].set_title("Brake Speed")
+
     torque_sensor_control_thread = Thread(target=torque_sensor_control, args=[local.devices[0].name])
     torque_sensor_control_thread.start()
 
     motor_control_thread = Thread(target=motor_control, args=[local.devices[0].name])
     motor_control_thread.start()
+
+    brake_control_thread = Thread(target=brake_control, args=[local.devices[0].name])
+    brake_control_thread.start()
 
     torque_speed_sensor_thread = Thread(target=torque_speed_sensor, args=[local.devices[0].name])
     torque_speed_sensor_thread.start()
@@ -58,6 +65,17 @@ def main():
         motor_speeds_x_data = [i for i in range(len(motor_speeds_y_data))]
         ax[0, 1].plot(motor_speeds_x_data, motor_speeds_y_data, color="black")
 
+        # Control Voltage of the Brake
+        brake_control_values_y_data = [i for i in settings.brake_control_values]
+        brake_control_values_x_data = [i for i in range(len(brake_control_values_y_data))]
+        ax[1, 0].axis(xmin=len(brake_control_values_x_data) - 1000 + 100, xmax=len(brake_control_values_x_data) + 100)
+        ax[1, 0].plot(brake_control_values_x_data, brake_control_values_y_data, color="black")[0]
+
+        # Speed of the Brake
+        brake_speeds_y_data = [i for i in settings.brake_speeds]
+        brake_speeds_x_data = [i for i in range(len(brake_speeds_y_data))]
+        ax[1, 1].plot(brake_speeds_x_data, brake_speeds_y_data, color="black")
+
         plt.draw()
         plt.pause(0.01)
 
@@ -65,6 +83,8 @@ def main():
         wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         wr.writerow(settings.motor_control_values)
         wr.writerow(settings.motor_speeds)
+        wr.writerow(settings.brake_control_values)
+        wr.writerow(settings.brake_speeds)
 
 
 

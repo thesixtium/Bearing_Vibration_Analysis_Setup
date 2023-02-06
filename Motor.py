@@ -1,8 +1,7 @@
 import nidaqmx
-import math
-from math import sin, cos, tan
-
 import settings
+from math import sin
+from math import cos
 
 def motor_control(device, modulo=1000, tick_rate=250):
     motor_control_task = nidaqmx.Task()
@@ -17,7 +16,6 @@ def motor_control(device, modulo=1000, tick_rate=250):
             output = 0
 
         motor_control_task.write([output], auto_start=True)
-        # motor_control_task.wait_until_done()
         settings.motor_control_values.append(output)
 
         t = (t + (1 / tick_rate)) % modulo
