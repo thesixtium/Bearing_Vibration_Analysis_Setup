@@ -1,4 +1,5 @@
 import settings
+from math import cos
 
 def command_line_interface():
     mode = 0  # 0 is motor, 1 is brake
@@ -28,6 +29,7 @@ def check_equation(user_input):
         return False
 
     try:
+        t=0
         eval(user_input)
         return True
     except Exception as e:
