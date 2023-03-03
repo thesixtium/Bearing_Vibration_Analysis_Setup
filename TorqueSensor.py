@@ -19,7 +19,6 @@ def torque_speed_sensor(device, average_window=5):
     torque_sensor_speed_task.ci_channels.add_ci_count_edges_chan(f"{device}/ctr0")
 
     torque_sensor_speed_task.start()
-
     moving_average = [{"time": time(), "ticks": 0} for _ in range(average_window)]
 
     while settings.program_running:
@@ -27,7 +26,7 @@ def torque_speed_sensor(device, average_window=5):
         moving_average.append({"time": time(), "ticks": torque_sensor_speed_task.read()})
 
         speeds = []
-        for i in range(4):
+        for i in range(average_window-1):
             delta_ticks = moving_average[i+1]["ticks"]-moving_average[i]["ticks"]
             delta_time = moving_average[i+1]["time"]-moving_average[i]["time"]
             if delta_time != 0:
