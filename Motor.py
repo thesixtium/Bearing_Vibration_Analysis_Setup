@@ -4,6 +4,7 @@ from math import sin
 from math import cos
 
 def motor_control(device):
+    t=0
     motor_control_task = nidaqmx.Task()
     motor_control_task.ao_channels.add_ao_voltage_chan(f"{device}/ao0")
 
